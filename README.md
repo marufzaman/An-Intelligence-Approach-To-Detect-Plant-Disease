@@ -1,5 +1,12 @@
-# An Intelligence Approach to Detect Plant Disease
+# An Intelligence Approach to Detect Plant Disease.
 
-Vegetable and crop diseases are serious threat to food security for most of the agriculturally based country., but the identification is still very difficult specially in early stages. So, the idea of - fast, accurate and early detection of vegetable and crop’s pests and infectious disease can be used to minimize the food and economical losses. Indication of plant of vegetable diseases can be identified from leaves, where the evidence of a disease or infection can be found, using Convolutional Neural Network (CNN) techniques. We proposed a CNN model inspired by VGG19 model trained on 24,162 images of corn, potato and tomato leaves, that could detect 15 district categories of diseases excluding the healthy leaves.  At the end, an accuracy of 96.70% was obtained on test dataset with our CNN architecture. The idea of identifying the phase of an infection or disease is predicted by observing the prediction for result as healthy plant or vegetable when the final prediction was infected vegetable.
+### Project Summary:
+Designed a model to create a model for any plant’s categorical disease from its leaf. And build a simple interface to test that model against some plant leaf.
 
-For detail read [Thesis_Paper.pdf](https://github.com/marufzaman/An-Intelligence-Approach-to-Detect-Plant-Disease/blob/master/Thesis_Paper.pdf)
+### Operations:
+	- Collected affected and unaffected vegetable leaf from a hybrid vegetable research center.
+	- Sorted and organized those leaf as useable dataset by using manual tools – Adobe Photoshop CC.
+	- Designed a model based on vgg19 pretrained model for the dataset
+	- Test the generated model with the interface.
+
+For detail information read [Thesis_Paper.pdf](https://github.com/marufzaman/An-Intelligence-Approach-to-Detect-Plant-Disease/blob/master/Thesis_Paper.pdf)
